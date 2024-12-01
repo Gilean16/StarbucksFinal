@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;  
+}
+
+
+nav img{
+    width: 10vw;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 10;
+    width: 100vw;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.navbar-left{
+    display: flex;
+    flex-direction: row;
+    margin-right: 30vw;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.container{
+    width: 68vw;
+    height: auto;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+}
+
+.container img{
+    width: 36vw;
+    height: auto;
+}
+
+.container-starbucks{
+    padding: 8%;
+    text-align: center;
+    font-size: 19px;
+}
+
+#container-green{
+    background-color: #1e3932;
+}
+
+#container-red{
+    background-color: #d50032;
+}
+
+#container-blue{
+    background-color: #0044b4;
+    flex-direction: row;
+}
+
+
+/*Rewards Styles*/
+.rewards-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    height: calc(100vh - 50px);
+}
+
+/* Mitad izquierda */
+.left-container{
+    position: fixed;
+    top: 1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xxx-large;
+    text-align: center;
+
+
+    width: 35vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    color: white;
+    margin: 0;
+    padding: 40px;
+
+}
+
+.bottom-image {
+    margin-bottom: 0; /* Espaciado debajo del logo */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: -400px; /* Espacio entre la imagen y el texto */
+}
+
+
+
+
+.right-container{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    width: 50vw;
+    margin-top: 1vw;
+    margin-left: 40vw;
+    width: calc(100vw - 25vw); /* Ocupa el espacio restante */
+    overflow-y: auto; /* Habilita el scroll vertical */
+}
+
+.imagenes1-container ul {
+    list-style-type: none; 
+    padding: 20px;
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+}
+
+.imagenes1-container li {
+    text-align: center; /* Centra el contenido dentro del <li> */
+}
+
+.imagenes1-container figcaption {
+    margin-top: 10px; /* Espacio entre la imagen y el pie de página */
+    font-size: 14px; /* Tamaño de texto para el pie de página */
+    color: #000000; /* Color del texto */
+}
+
+.imagenes-container ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 1;
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas */
+    gap: 20px; /* Espacio entre imágenes */
+    justify-content: center;
+}
+
+.imagenes-container li {
+    text-align: center; /* Centra el contenido dentro del <li> */
+}
+
+.imagenes-container figcaption {
+    margin-top: 10px; /* Espacio entre la imagen y el pie de página */
+    font-size: 10px; /* Tamaño de texto para el pie de página */
+    color: #000000; /* Color del texto */
+}
+
+.grey-area{
+    height: 55vh;
+    background: linear-gradient(0deg, rgb(210, 230, 224) 0%, rgb(223, 240, 235) 100%);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+.pasos-container{
+color: rgb(0, 0, 0);
+margin: 0;
+padding: 50px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-size: x-large;
+}
+
+.pasos {
+    text-align: left;
+    margin: 20px;
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 1;
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas */
+    gap: 40px;
+    
+
+}
+
+.grey-area2 {
+    height: 30vh;
+    background: linear-gradient(0deg, rgb(210, 230, 224) 0%, rgb(223, 240, 235) 100%);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    display: flex; /* Activa flexbox */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: flex-start; /* Alinea horizontalmente a la izquierda */
+}
+
+.grey-area2 .content {
+    display: flex; /* Activa flexbox para los elementos internos */
+    gap: 100px; /* Espacio entre la imagen y el texto */
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+}
+
+.grey-area2 img {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene proporciones */
+}
+
+.grey-area2 .text {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.grey-area2 a {
+    color: rgb(0, 0, 77); /* Cambia el color de los enlaces */
+    text-decoration: underline;
+}
+
+.info-list {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Fuente base */
+    font-size: 18px; /* Tamaño de letra */
+    display: flex; /* Activa flexbox */
+    flex-direction: column; /* Alinea los elementos en columna */
+    gap: 10px; /* Espaciado entre elementos */
+}
+
+.info-list li {
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+
+.info-list li p {
+    font-weight: bold; /* Negrita para el título */
+    margin: 0;
+    color: #333; /* Color del texto */
+}
+
+.info-list a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #00704a; /* Color del enlace */
+    transition: color 0.3s; /* Animación para el cambio de color */
+}
+
+.info-list a:hover {
+    color: #004d2c; /* Color al pasar el cursor */
+    text-decoration: underline; /* Agrega subrayado al pasar el cursor */
+}
+
+.footer {
+    background-color: #f4f4f4; /* Color de fondo */
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seriff;
+    font-size: 14px;
+    color: #333;
+}
+
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los íconos */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); 
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #00704a; 
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #004d2c; 
+}
+
+.footer p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 20px; 
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    background-color: #ffffff;
+    color: #00704a; /* Creo que es un color verde similar al de Starbucks */
+}
+
+.btn-filled {
+    background-color: #ffffff;
+    border: none;
+    color: #00704a;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-filled:hover {
+    background-color: #004d2c; 
+    color: #ffffff;
+}
